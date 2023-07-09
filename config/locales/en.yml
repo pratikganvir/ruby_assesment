@@ -30,4 +30,7 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  errors:
+    messages:
+      not_teacher: 'Kind can not be teacher because is studying in at least one program'
+      not_student: 'Kind can not be student because is teaching in at least one program'
